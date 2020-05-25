@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6de66c10af.js" crossorigin="anonymous"></script>
+    
+    <title>Ventas</title>
+</head>
+<body>
+    <div id="content">
+        <div id="ventas">
+            <div id="header">
+                <p>Producto</p>
+                <input type="search" name="product" id="idproduct" placeholder="Buscar producto por codio o nombre">
+
+            </div>
+            <div id="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th><th>CANT.</th><th>PRODUCTO</th><th>MARCA</th><th>PRECIO</th><th>IMPORTE</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1</td><td>1</td><td>Leche Evaporada Entera Pack x 6 Un Lata 410 Gr</td><td>GLORIA</td><td>15.30</td><td>15.30</td>
+                    </tr>
+                    <tr>
+                        <td>1</td><td>1</td><td>Leche Evaporada Entera Pack x 6 Un Lata 410 Gr</td><td>GLORIA</td><td>15.30</td><td>15.30</td>
+                    </tr>
+                    <tr>
+                        <td>1</td><td>1</td><td>Leche Evaporada Entera Pack x 6 Un Lata 410 Gr</td><td>GLORIA</td><td>15.30</td><td>15.30</td>
+                    </tr>
+                </table>
+
+                <div id="foot">
+                    <button id="guardar" class="btns"><i class="fas fa-shopping-cart"></i>Guardar Compra</button>
+                    <button id="borra" class="btns"><i class="fas fa-trash"></i>Vaciar Carrito</i></button>
+
+                </div>
+            </div>
+        </div>
+        <div id="carro">
+            <div id="precio">
+                <p>S./21.60</p>
+            </div>
+            <div id="docu">
+                <div class="obje"><p>DOCUMENTO</p><select name="sele" id="docsele" ></select></div>
+                <div class="obje"><p>PAGO</p><select name="sele" id="docsele"></select></div>
+                <div class="obje"><p>SERIE</p><input type="text" name="Ruc" placeholder="001" class="text1"></div>
+                <div class="obje"><p>N° DE VENTA</p><input type="text" name="Ruc" placeholder="0000001" class="text1"></div>
+            </div>
+            <div id="fecha">
+                <div class="obje2"><p>FECHA DE COMPRA</p><input type="date" name="date" id="iddate"></div>
+                <div class="obje2"><p>PROVEEDOR</p><input type="text" name="Ruc" id="idruc" placeholder="Ruc o Razon Social"></select></div>
+            </div>
+            <div id="dedu">
+                <div id="1" class="ulti"><p>SUB TOTAL</p><p>S/.18.31</p></div>
+                <div id="2" class="ulti"><p>I.G.V (18%)</p><p>S/.3.29</p></div>
+                <div id="3" class="ulti"><p>TOTAL</p><p>S/.21.60</p></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
